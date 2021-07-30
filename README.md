@@ -1,4 +1,5 @@
-#server-website-screenshot
+#Server-website-screenshot
+
 This server receives a website url, takes a screenshot of the website and creates a 10 seconds mp4 video.
 
 ##Installation
