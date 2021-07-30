@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "website screenshot",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server/server",
     "server": "nodemon server/server"
@@ -19,5 +20,14 @@
   "homepage": "https://github.com/dorver/server-website-screenshot#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express-async-handler": "^1.1.4",
+    "@ffmpeg-installer/ffmpeg": "^1.0.15",
+    "@ffprobe-installer/ffprobe": "^1.0.9",
+    "fluent-ffmpeg": "^2.1.2",
+    "puppeteer": "^10.1.0",
+    "videoshow": "^0.1.12",
+    "webshot": "^0.18.0"
   }
 }
