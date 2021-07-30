@@ -1,19 +1,23 @@
-#Server-website-screenshot
+# Server-website-screenshot
 
 This server receives a website url, takes a screenshot of the website and creates a 10 seconds mp4 video.
 
-##Installation
+## Installation
+
 npm install
 
-##Run
+## Run
+
 npm run server
 
-##API
-###Request
+## API
+
+### Request
+
 POST/http://localhost:5000/api/videos
 
 url: "website url"
 
-###Response
+### Response
 
 file: "path/to/file/video.mp4"
